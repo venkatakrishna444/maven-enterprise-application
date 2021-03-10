@@ -23,6 +23,22 @@
 			<artifactId>json</artifactId>
 			<version>20160212</version>
 		</dependency>
+		<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun enterprise Releases Nexus Repository</name>
+	      <url>http://35.154.148.249:8081/repository/wallmart_release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>enterprise snapshot Nexus Repository </name>
+	      <url>http://35.154.148.249:8081/repository/wallmart_snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+		
 	
   
 </project>
